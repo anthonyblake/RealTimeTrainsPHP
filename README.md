@@ -36,4 +36,6 @@ Switch from departures to arrivals by suffixing the endpoint with /arrivals
 
 ## Preston Departure Board
 
+By default the board refreshes every 30 seconds.
+
 ![Alt text](/Screenshots/PrestonDepartures.PNG?raw=true "Preston Departure Board")
