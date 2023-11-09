@@ -8,6 +8,7 @@
   <title>Departure Board @anthonyblakedev</title>
   <?php include 'getDepartures.php';
     ?>
+  <link rel="stylesheet" href="departureBoard.css">
 </head>
 <body>
     <div id="tableHolder"></div>

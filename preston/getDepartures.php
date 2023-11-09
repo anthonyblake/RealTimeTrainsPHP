@@ -78,9 +78,9 @@ function GetPrestonDeparturesTable()
     $jsonarray = json_decode($rawjson,true);
 
     //var_dump($jsonarray["services"][0]["locationDetail"]["destination"]);
-    $depTableHtml='<table>';
+    $depTableHtml='<table class="departureTable">';
 
-    $depTableHtml=$depTableHtml .'<tr><td>Destination</td><td>Scheduled</td><td>Estimated</td><td>Service</td></tr>';
+    $depTableHtml=$depTableHtml .'<tr><th>Destination</th><th>Scheduled</th><th>Estimated</th><th>Service</th></tr>';
 
     foreach($jsonarray["services"] as $service)
     {
